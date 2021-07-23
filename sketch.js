@@ -45,7 +45,7 @@ async function getBackgroundImg(){
     var responseJson=await response.json()
     var datetime= responseJson.datetime
      hour= datetime.slice(11,13)
-   
+   hour = 17
     // write code to fetch time from API
     
  
